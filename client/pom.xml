@@ -27,8 +27,9 @@
             </fileset>
           </filesets>
         </configuration>
-        
-        <plugin>
+      </plugin>
+
+           <plugin>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-war-plugin</artifactId>
   <version>2.2</version>
@@ -36,9 +37,7 @@
     <failOnMissingWebXml>false</failOnMissingWebXml>
   </configuration>
 </plugin>
-        
-      </plugin>
-
+      
       <plugin>
         <groupId>com.github.eirslett</groupId>
         <artifactId>frontend-maven-plugin</artifactId>
